@@ -1,0 +1,107 @@
+The system is: Windows - 6.1 - x86
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdCXX, Configuration: Debug x64 ------
+1>Build started 18.01.2015 00:51:32.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCXXCompilerId.cpp
+1>Link:
+1>  CompilerIdCXX.vcxproj -> C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\2.8.10.2\CompilerIdCXX\.\CompilerIdCXX.exe
+1>PostBuildEvent:
+1>  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdCXX.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:02.42
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj.user"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/2.8.10.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec46727816
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec46727816, Configuration: Debug x64 ------
+1>Build started 18.01.2015 00:51:39.
+1>PrepareForBuild:
+1>  Creating directory "C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec46727816.dir\Debug\cmTryCompileExec46727816.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec46727816.dir\Debug\\" /Fd"C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec46727816.pdb" /Gd /TP /errorReport:prompt testCXXCompiler.cxx  /Zm1000 
+1>  
+1>  testCXXCompiler.cxx
+1>Link:
+1>  cmTryCompileExec46727816.vcxproj -> C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec46727816.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec46727816.vcxproj -> C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec46727816.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec46727816.dir\Debug\cmTryCompileExec46727816.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec46727816.dir\Debug\cmTryCompileExec46727816.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:03.73
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec299551682
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec299551682, Configuration: Debug x64 ------
+1>Build started 18.01.2015 00:51:46.
+1>PrepareForBuild:
+1>  Creating directory "C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec299551682.dir\Debug\cmTryCompileExec299551682.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.30319.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec299551682.dir\Debug\\" /Fd"C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec299551682.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec299551682.vcxproj -> C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec299551682.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec299551682.vcxproj -> C:\Users\Urmimala\Desktop\Thesis\Fourth Phase - Programming\Programs\Introduction\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec299551682.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec299551682.dir\Debug\cmTryCompileExec299551682.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec299551682.dir\Debug\cmTryCompileExec299551682.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
