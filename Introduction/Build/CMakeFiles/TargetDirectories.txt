@@ -1,3 +1,0 @@
-C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/HelloWorld.dir
-C:/Users/Urmimala/Desktop/Thesis/Fourth Phase - Programming/Programs/Introduction/Build/CMakeFiles/ZERO_CHECK.dir
