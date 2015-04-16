@@ -50,7 +50,7 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "combined-visualization.py"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "pyvicon.py"
@@ -62,7 +62,7 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "knife_angle_visualization.py"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
