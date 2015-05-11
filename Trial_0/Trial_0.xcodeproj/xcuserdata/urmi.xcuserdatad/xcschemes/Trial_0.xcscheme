@@ -45,7 +45,31 @@
       </PathRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "knife_range_visualization.py"
+            argument = "visualization.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "jitter-trace-visualization.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "knife-angle-video.py"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "jitter.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "experiment.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "angle-visualization.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "knife-trace-visualization.py"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
@@ -61,8 +85,8 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "knife_angle_visualization.py"
-            isEnabled = "YES">
+            argument = "knife-angle-visualization.py"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>

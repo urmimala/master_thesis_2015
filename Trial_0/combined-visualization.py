@@ -70,7 +70,7 @@ ax2.view_init(elev=23., azim=-28)
 
 ax2.set_title('Knife Range Visualization')
 
-plt.ion()
+#plt.ion()
 
 # Maximize output figure window
 mng = plt.get_current_fig_manager()
@@ -79,7 +79,6 @@ mng.full_screen_toggle()
 
 
 plt.show()
-
 
 # Setting up the streaming
 s = ViconStreamer()
@@ -91,7 +90,9 @@ if len(sys.argv) > 1 and sys.argv[1] in ["-l", "--list"]:
 streams = s.selectStreams(["Time", "P-"])
 
 s.startStreams(verbose=False)
-
+x =0
+y =0
+z =0
 try:
     
     # Wait for first data to come in
@@ -102,7 +103,15 @@ try:
         user_line.set_3d_properties([0,s.getData()[21]])
         user_line.set_color('r')
         
-        ax2.scatter(s.getData()[1],s.getData()[2], s.getData()[3], c = 'b')
+        
+        if(s.getData()[1] == 0  or s.getData()[2] == 0 or s.getData()[3] == 0 ) :
+            ax2.scatter(x,y,z, c = 'b')
+        else:
+            x = s.getData()[1]
+            y = s.getData()[2]
+            z = s.getData()[3]
+            ax2.scatter(x,y,z, c = 'b')
+        
 
         print s.getData()[1],s.getData()[2], s.getData()[3]
 #print s.getData()[19],s.getData()[20], s.getData()[21]

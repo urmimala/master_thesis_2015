@@ -180,9 +180,9 @@ class ViconStreamer:
                     print self.data[i], "  ",
                 print
 
-'''
 if __name__ == "__main__":
 
+    f = open('LiveDataFile.csv','w')
     s = ViconStreamer()
     s.connect("192.168.10.1", 800)
 
@@ -193,18 +193,20 @@ if __name__ == "__main__":
     streams = s.selectStreams(["Time", "P-"])
     
     s.startStreams(verbose=False)
+    f.write ( ",".join(streams))
+    f.write ("\n")
 
-    try:
-        # Wait for first data to come in
-        while s.getData() is None: pass
 
-        while True:
-            print "  ".join(streams)
-            print s.getData()[19],s.getData()[20], s.getData()[21]
+    # Wait for first data to come in
+    while s.getData() is None: pass
+
+    while True:
+        try:
+            f.write ( ",".join(map(str,s.getData())))
+            f.write ("\n")
+            print s.getData()
             time.sleep(0.01)
-    except KeyboardInterrupt:
-        pass
-
-    s.close()
-
-'''
+        except KeyboardInterrupt:
+            f.close()
+            s.close()
+            raise
