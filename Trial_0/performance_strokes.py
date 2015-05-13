@@ -10,7 +10,7 @@ def divide_strokes(filename, skip_header):
     troughs = []
     
     data = np.genfromtxt(filename, delimiter=',', skip_header=skip_header,
-                         names=['a','b','x1', 'y1', 'z1','x2', 'y2', 'z2','x3', 'y3', 'z3',
+                         names=['a','x1', 'y1', 'z1','x2', 'y2', 'z2','x3', 'y3', 'z3',
                                 'x4', 'y4', 'z4','x5', 'y5', 'z5','x6', 'y6', 'z6','x', 'y', 'z'])
                                 
     maxima = argrelextrema(data['z1'], np.greater)

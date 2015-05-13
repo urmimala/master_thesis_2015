@@ -49,12 +49,16 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
+            argument = "jitter-trace-video.py"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "jitter-trace-visualization.py"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "knife-angle-video.py"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "jitter.py"

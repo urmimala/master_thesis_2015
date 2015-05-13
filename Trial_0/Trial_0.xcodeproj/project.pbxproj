@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		020055911ADFBA4700739662 /* combined-visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "combined-visualization.py"; sourceTree = "<group>"; };
 		0201FB951AA6076600C01D11 /* pyvicon.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pyvicon.py; sourceTree = "<group>"; };
 		0246D5851B0122D80042DAC9 /* check_angle_jitter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = check_angle_jitter.py; sourceTree = "<group>"; };
 		0246D5861B01249D0042DAC9 /* performance_strokes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = performance_strokes.py; sourceTree = "<group>"; };
 		0246D5871B0124C70042DAC9 /* angle_plane_calculation.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = angle_plane_calculation.py; sourceTree = "<group>"; };
 		0246D5891B0131F60042DAC9 /* jitter-trace-visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "jitter-trace-visualization.py"; sourceTree = "<group>"; };
 		0246D58A1B013FA60042DAC9 /* knife-angle-video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "knife-angle-video.py"; sourceTree = "<group>"; };
-		02574C521AF22FB8000FAC88 /* visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = visualization.py; sourceTree = "<group>"; };
+		0246D58B1B02CB010042DAC9 /* jitter-trace-video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "jitter-trace-video.py"; sourceTree = "<group>"; };
+		0246D58C1B035A3A0042DAC9 /* demo-video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "demo-video.py"; sourceTree = "<group>"; };
 		028B4FBA1AF16FA500CF66BC /* knife-angle-visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "knife-angle-visualization.py"; sourceTree = "<group>"; };
-		029CE4061AF674B50086C6DC /* jitter_trace_visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jitter_trace_visualization.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -26,11 +25,10 @@
 				0201FB951AA6076600C01D11 /* pyvicon.py */,
 				028B4FBA1AF16FA500CF66BC /* knife-angle-visualization.py */,
 				0246D58A1B013FA60042DAC9 /* knife-angle-video.py */,
-				029CE4061AF674B50086C6DC /* jitter_trace_visualization.py */,
+				0246D58C1B035A3A0042DAC9 /* demo-video.py */,
+				0246D58B1B02CB010042DAC9 /* jitter-trace-video.py */,
 				0246D5891B0131F60042DAC9 /* jitter-trace-visualization.py */,
 				0246D5861B01249D0042DAC9 /* performance_strokes.py */,
-				020055911ADFBA4700739662 /* combined-visualization.py */,
-				02574C521AF22FB8000FAC88 /* visualization.py */,
 				0246D5851B0122D80042DAC9 /* check_angle_jitter.py */,
 				0246D5871B0124C70042DAC9 /* angle_plane_calculation.py */,
 			);

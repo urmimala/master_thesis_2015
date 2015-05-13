@@ -55,8 +55,8 @@ mng.full_screen_toggle()
 
 
 files = []
-files.append(['/Users/urmi/Desktop/PythonPrograms/Expert Session02.csv', 29])
-files.append(['/Users/urmi/Desktop/PythonPrograms/Participant021.csv', 29])
+files.append(['Expert Session02.csv', 29])
+files.append(['LiveDataFile.csv', 1])
 
 flag = []
 X = []
@@ -68,7 +68,7 @@ for i in range(len(files)):
     peaks, troughs = divide_strokes(files[i][0], files[i][1])
     #print peaks, troughs
     data = np.genfromtxt(files[i][0], delimiter=',', skip_header=files[i][1],
-                         names=['a','b','x1', 'y1', 'z1','x2', 'y2', 'z2','x3', 'y3', 'z3',
+                         names=['a','x1', 'y1', 'z1','x2', 'y2', 'z2','x3', 'y3', 'z3',
                                 'x4', 'y4', 'z4','x5', 'y5', 'z5','x6', 'y6', 'z6','x', 'y', 'z'])
                                 
     f, x, y, z, a = check_angle(data, peaks, troughs)
